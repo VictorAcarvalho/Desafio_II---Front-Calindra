@@ -18,6 +18,51 @@ body{
 }
 
 header{
+    height: 110px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav{
+    text-transform: uppercase;
+    margin: 2rem;
+    margin-left: 5rem;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:var(--letter-gold);
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    margin: 1.8rem;
+    margin-left:5rem
+}
+
+nav a:hover{
+    cursor: pointer;
+}
+
+.flex-row{
     display: flex;
     flex-direction: row;
+}
+
+#letteringHeader{
+    color: var(--letter-gold);
+    margin: 2rem;
+    
+}
+#letteringHeader h3{
+    font-size: 3rem;
+}
+#letteringHeader p{
+    font-size: 2rem;
+}
+
+#logoImg{
+   width: 7rem;
+   height: 6rem;
+   margin: 2rem;
 }
