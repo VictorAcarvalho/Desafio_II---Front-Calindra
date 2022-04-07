@@ -59,16 +59,51 @@ main h1{
 }
 
 section{
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     background-color: var(--blue-background);
     height: 102.4rem;
     color: var(--white-background);
 }
 
+footer{
+    height: 22.6rem;
+    align-items: center;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
+}
+
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer{
+    margin-left: 15.1rem;
+}
+.footerContainer h3{
+    margin-bottom: 1.5rem;
+    font-size: 2.72rem;
+    color: var(--letter-gray);
+    font-weight: 700;
+}
+
+#midiaContainer a{
+    margin-right:2.6rem  ;
+}
+
+#contactContainer{
+    margin-left: 30rem;
+    color: var(--letter-gray);
+}
+
+#contactContainer p{
+    font-size: 2rem;
+
+    font-weight: 400;
 }
 
 #measureTape{
@@ -95,7 +130,8 @@ section{
 
 #textContainerMain{
     width: 48.4rem;
-    margin: 2rem 30rem 5rem 0; 
+    margin-left: 20rem;
+    margin-top: 15rem;
 }
 #textContainerMain h1{
     font-size: 6.9rem;
