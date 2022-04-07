@@ -45,6 +45,8 @@ nav a:hover{
 }
 
 main{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 91.4rem;
@@ -149,4 +151,64 @@ footer{
     left: 40.2rem;
     mix-blend-mode: multiply;
     background-image: ();
+}
+
+#responsiveMenu{
+    display: none;
+}
+
+
+@media (max-width: 320px){
+    
+    body{
+        width: 320px
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    nav, nav a{
+      display: none;
+    }  
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 54rem;
+    }
+
+    main h1{
+        margin-left: 2rem;
+        display: block;
+        font-size: 5.3rem;
+    }
+    
+    #logoImg{
+        width: 4rem;
+        height: 3.9rem;
+        margin-top: 2rem;
+        margin-left: 12rem;
+    }
+
+    #letteringHeader{
+        display: none;
+    }
+    #responsiveMenu{
+        height: 3rem;
+        display: block;
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+    }
+
+    #measureTape{
+        width: 28.5rem;
+        height: 14.0rem;       
+    }
 }
