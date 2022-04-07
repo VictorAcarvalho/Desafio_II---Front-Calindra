@@ -15,11 +15,11 @@
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    width: 144rem
 }
 
 header{
     height: 110px;
-    width: 100%;
     justify-content: flex-start;
 }
 
@@ -27,6 +27,7 @@ nav{
     text-transform: uppercase;
     margin-top: 2rem;
     margin-left: 50rem;
+    
 }
 
 nav a{
@@ -35,7 +36,8 @@ nav a{
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 0.3rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-right: 8rem;
 }
 
 nav a:hover{
@@ -57,12 +59,12 @@ main h1{
 }
 
 section{
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     background-color: var(--blue-background);
     height: 102.4rem;
+    color: var(--white-background);
 }
-
 
 .flex-row{
     display: flex;
@@ -89,4 +91,26 @@ section{
    width: 7rem;
    height: 6rem;
    margin: 2rem;
+}
+
+#textContainerMain{
+    width: 48.4rem;
+    margin: 2rem 30rem 5rem 0; 
+}
+#textContainerMain h1{
+    font-size: 6.9rem;
+}
+#textContainerMain p{
+    font-weight: 400;
+    font-size: 4.8rem;
+    margin-top: 2rem;
+}
+
+#measurePart{
+    width: 103.8rem;
+    position: absolute;
+    top: 110.7rem;
+    left: 40.2rem;
+    mix-blend-mode: multiply;
+    background-image: ();
 }
