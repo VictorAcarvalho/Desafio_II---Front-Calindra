@@ -20,14 +20,13 @@ body{
 header{
     height: 110px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 nav{
     text-transform: uppercase;
-    margin: 2rem;
-    margin-left: 5rem;
-    
+    margin-top: 2rem;
+    margin-left: 50rem;
 }
 
 nav a{
@@ -36,17 +35,42 @@ nav a{
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 0.3rem;
-    margin: 1.8rem;
-    margin-left:5rem
+    margin: 2rem;
 }
 
 nav a:hover{
     cursor: pointer;
 }
 
+main{
+    align-items: center;
+    justify-content: center;
+    height: 91.4rem;
+    background-color: var(--gray-background);
+}
+
+main h1{
+    width: 34.8rem;
+    color: var(--letter-gray);
+    font-size: 8.2rem;
+    margin-left: 2.7rem;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-background);
+    height: 102.4rem;
+}
+
+
 .flex-row{
     display: flex;
     flex-direction: row;
+}
+
+#measureTape{
+    width: 68.2rem;
 }
 
 #letteringHeader{
